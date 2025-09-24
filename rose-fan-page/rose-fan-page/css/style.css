@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #eee;
+  background-color: #111;
+}
+
+/* Center everything except lists */
+.center-content {
+  text-align: center;
+}
+
+/* Angsty headings */
+.angsty-heading {
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #c0392b; /* dark blood red */
+  text-shadow: 2px 2px #222; /* subtle jagged effect */
+}
+
+/* Keep lists left-aligned */
+ul {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+/* Center the table */
+.center-table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  border-collapse: collapse;
+  background-color: #222;
+  color: #eee;
+}
+
+.center-table td, .center-table th {
+  padding: 8px;
+  border: 1px solid #555;
+}
+
+/* Want to learn more section */
+.want-to-learn {
+  text-align: center;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid #444;
+  background-color: #1c1c1c;
+  width: 60%;
+  border-radius: 10px;
+}
+
+a {
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #f1c40f;
+}
